@@ -49,7 +49,12 @@ position: sticky;
     text-decoration-line: none;
     color: var(--text-gray);
 }
-    
+
+#info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
 
