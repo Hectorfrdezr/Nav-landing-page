@@ -169,7 +169,7 @@ background-color: #5636e5;
     display: flex;    
 }
 
-@media(max-width:720px){
+@media(max-width:920px){
 
     .navbar{
         display: flex;
