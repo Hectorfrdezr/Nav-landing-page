@@ -54,6 +54,7 @@ max-width: 1900px;
 .carrito{
     display: flex;
     width: 45px;
+    cursor: pointer;
 }
 
 #info{
