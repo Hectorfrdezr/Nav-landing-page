@@ -21,7 +21,6 @@
 
 body{
    background:linear-gradient(#4facfe,#00f2fe,#f3f4f6);
-   height: 100vh;
    width: 100%;
     font-family: "poppin",sans-serif;
 }
@@ -39,7 +38,7 @@ display: flex;
 justify-content:space-between;
 align-items: center;
 background-color:var(--bg-electric);
-gap: 20px;
+gap: 45px;
 padding: 0 20px;
 position: sticky;
 max-width: 1900px;
@@ -66,7 +65,7 @@ max-width: 1900px;
 .info-pag{
     color: #f9f9ff;
     display: flex;
-    margin: 80px 100px;
+    margin: 30px 100px;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -93,38 +92,41 @@ max-width: 1900px;
     font-size: 19px;
     display: flex;
     margin: 35px 0;
-    border: dotted;
+    /* border: dotted; */
+    color:rgb(235, 235, 241) ;
     padding: 12px;
-    
+}
+.info-pag span{
+    color: #035599;
+    text-align: center;
 }
 
 .info-a {
     display: flex;
     padding: 15px;
-    gap: 25px;
+    gap: 35px;
     justify-content: space-around;
     align-items: center;
 }
 
 .info-a :first-child{
-padding: 12px;
+padding: 6px;
 border-radius: 12px;
 text-decoration-line: none;
 /* border-style:double; */
 font-size: 18px;
 font-weight: 600;
-color: #0a0a0a;
-background-color: #674be48f;
+color: #faf8f8;
+background-color: #5636e5;
 }
 .info-a :last-child{
-    padding: 12px;
+    padding: 6px;
         border-radius: 12px;
         text-decoration-line: none;
-        /* border-style:double; */
         font-size: 18px;
         font-weight: 600;
         color: #0a0a0a;
-        background-color: #ceba09;
+        background-color: #f1db0e;
 
 }
 
@@ -140,4 +142,27 @@ background-color: #674be48f;
 
 }
 
+#tienda{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
 
+.info-tienda{
+    color: #035599;
+    display: flex;
+    margin: 30px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 8px; 
+}
+
+.info-tienda p{
+    justify-content:flex-start;
+    align-items: flex-start;
+    /* font-weight: 600; */
+    font-size: 16px;
+    display: flex;    
+}
