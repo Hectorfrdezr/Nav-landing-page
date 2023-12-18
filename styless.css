@@ -32,18 +32,28 @@ body{
     cursor: pointer;  
 }
 
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:var(--bg-electric);
+    width: 100%;
+    position: sticky;
+    }
+
 .navbar,
 .nav-list{
 display: flex;
-justify-content:space-between;
-align-items: center;
-background-color:var(--bg-electric);
+justify-content:center;
+align-items:center ;
 gap: 45px;
 padding: 0 20px;
-position: sticky;
-max-width: 1900px;
+}
 
-
+#menu-togle,
+#cart-togle,
+.menu-label{
+    display: none;
 }
 
 .nav-list a{
@@ -51,7 +61,7 @@ max-width: 1900px;
     color: var(--bg-white);
 }
 
-.carrito{
+.cart-icon{
     display: flex;
     width: 45px;
     cursor: pointer;
@@ -184,9 +194,10 @@ background-color: #5636e5;
 }
 .info-productos h3{
       font-size: 3rem;
-      color: #e9f2fa;
-      -webkit-text-stroke-color: #111111c5;
-      -webkit-text-stroke-width: 1px;
+      color:transparent;
+      background: linear-gradient(#0483f3,#0a0a0a);
+      background-clip:text ;
+      -webkit-background-clip: text;
       align-items: center;
       text-align: center;
     }
