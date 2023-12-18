@@ -104,7 +104,6 @@ padding: 0 20px;
     font-size: 19px;
     display: flex;
     margin: 35px 0;
-    /* border: dotted; */
     color:rgb(235, 235, 241) ;
     padding: 12px;
 }
@@ -125,7 +124,6 @@ padding: 0 20px;
 padding: 6px;
 border-radius: 12px;
 text-decoration-line: none;
-/* border-style:double; */
 font-size: 18px;
 font-weight: 600;
 color: #faf8f8;
