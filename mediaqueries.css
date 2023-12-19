@@ -44,9 +44,38 @@
     #menu-togle:checked + .nav-list{
         display: flex;
     }
+    .info-pag{
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+    .info-pag h1{
+        width: 90%;
+        max-width: 500px;
+        min-width:unset ;
+    }
+    .info-pag p{
+        width: 60%;
+        max-width: 600px;
+    }
+    
+    .info-img{
+        display: none;
+    }
+    .info-tienda{
+        text-align: center;
+        width: 80%;
+    }
+    .info-productos{
+        width: 80%;
+    }
+}
+
+@media (max-width: 576px){
+    
     
 
 
-
-     
 }
