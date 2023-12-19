@@ -1,8 +1,13 @@
 /* tablet */
 @media (max-width: 992px) {
      /* header */
+     header.{
+        width: 100%;
+
+     }
      .navbar{
         gap: 10px;
+
      }
      .cart-icon{
          height: 33px;
@@ -14,12 +19,12 @@
         top: 98px;
         left: 5%;
         right: 5%;
-        width: 98%;
+        width: 100%;
         flex-direction: column;
         background:linear-gradient(#1f7ecc, #000000d8);
         /* border: 2px solid; */
         border-top: 0px;
-        border-radius: 0 0 15px 15px;
+        border-radius:0 0 15px 15px ;
         align-items: flex-start;
         padding: 45px 30px;
         gap: 25px;
@@ -73,12 +78,18 @@
     }
 }
 /* phone */
-@media (max-width: 576px){
-
+@media (max-width: 576px) {
     
+    .info-pag{
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
     }
     
 
 
 
-}
