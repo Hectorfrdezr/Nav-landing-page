@@ -1,12 +1,13 @@
 /* tablet */
-@media (max-width: 992px) {
+@media (max-width: 992px){
      /* header */
      header{
-        width: 100%;
+        width: 100%;  
 
      }
      .navbar{
         gap: 10px;
+        margin: 25px;
 
      }
      .cart-icon{
@@ -78,13 +79,71 @@
     }
 }
 /* phone */
-@media (max-width: 540px) {
-        
+@media (max-width: 818px) {
+   
+    /* header */
+    header{
+        width: 100%;
+        justify-content: space-around;
+        gap:10px;
+    }
+    /* main */
    main{
      width: 146%;
-   
    }
+   #info{
+    justify-content: center;
+    align-items: center;  
+    }
+    .info-a{
+        justify-content: center;
+        align-items: center;
+        width: 45px;
+        }
+     .info-tienda{
+        margin: 20px;
+        justify-content: center;
+        align-items: center;
 
+     }
+        .info-tienda p{
+        font-size: 20px;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+     } 
+     .product-baño{
+        width: 100%;
+        flex-direction: column;
+     } 
+     
+     .product-baño img{
+        width: 80%;
+        justify-content: center;
+        align-items: center;
+        margin: 80px;
+     }
+     /* footer */
+
+     #fin{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 146%;
+     }
+     .fin-info{
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+     }
+     .fin-info a{
+        justify-content: center;
+        padding: 28px;
+        align-items: center;
+        
+
+     }
     }
     
 
