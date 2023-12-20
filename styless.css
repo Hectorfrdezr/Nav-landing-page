@@ -27,15 +27,13 @@ header{
     justify-content: space-between;
     align-items: center;
     background-color:var(--bg-electric);
-    position:fixed;
-    max-width: 1600px;
+    position:sticky;
+   
     
 }
 
 main{
-    background:linear-gradient(#4facfe,#00f2fe,#d6f9fb);
-    width: 100%;
-    max-width: 1600px;
+    background:linear-gradient(#4facfe,#00f2fe,#d6f9fb);   
 }
 
 #img{
@@ -94,7 +92,7 @@ padding: 0 20px;
  font-weight: 550;
  font-size: 4rem;
  -webkit-text-stroke-width:3px ;
- /* -webkit-text-stroke-color: #1f7ecc; */
+ 
 
 }
 
@@ -128,13 +126,13 @@ padding: 0 20px;
 }
 
 .info-a :first-child{
-padding: 6px;
-border-radius: 12px;
-text-decoration-line: none;
-font-size: 18px;
-font-weight: 600;
-color: #faf8f8;
-background-color: #5636e5;
+    padding: 6px;
+    border-radius: 12px;
+    text-decoration-line: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: #faf8f8;
+    background-color: #5636e5;
 }
 .info-a :last-child{
     padding: 6px;
@@ -164,6 +162,7 @@ background-color: #5636e5;
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
     gap: 10px;
 }
 
@@ -185,6 +184,7 @@ background-color: #5636e5;
     display: flex;    
 }
 #productos{
+    width: 100%;
     display: flex;
     justify-content: center;
     /* flex-direction: column; */
@@ -224,12 +224,11 @@ background-color: #5636e5;
 
 #fin{
     display: flex;
-     justify-content: center;
+    justify-content: center;
     align-items: center;
-     gap: 12px;
-     width: 100%;
-     max-width: 1600px;
-     background-color:#d6f9fb;
+    gap: 12px;
+    width: 100%;  
+    background-color:#d6f9fb;
     }
 .fin-info{
     display: flex;
@@ -269,6 +268,6 @@ background-color: #5636e5;
 }
 
 .fin-info img{
-    width: 40px;
+    width: 35px;
     border-radius: 12px;
 }

@@ -2,11 +2,10 @@
 @media (max-width: 992px){
      /* header */
      header{
-        width: 100%;  
+        width: 100%;
     }
-    main{
-        width: 146%;
-    }
+    
+    
      .navbar{
         gap: 10px;
         margin: 25px;
@@ -22,10 +21,8 @@
         top: 98px;
         left: 5%;
         right: 5%;
-        width: 100%;
         flex-direction: column;
         background:linear-gradient(#1f7ecc, #000000d8);
-        /* border: 2px solid; */
         border-top: 0px;
         border-radius:0 0 15px 15px ;
         align-items: flex-start;
@@ -83,8 +80,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        /* flex-direction: column; */
-        width: 146%;
+        width: 100%;
      }
      .fin-info{
         justify-content: center;
@@ -94,23 +90,18 @@
      .fin-info a{
         justify-content: center;
         padding: 28px;
-        align-items: center;
+        align-items: center;}
 }
-}
-
-    
+ 
      /* phone */
 
      @media (max-width:576px){
         .info-pag{
-            width: 100%;
             justify-content: space-around;
             gap:10px;
         }
         /* main */
-       main{
-         width: 146%;
-       }
+       
        #info{
         justify-content: center;
         align-items: center;  
@@ -120,7 +111,7 @@
             align-items: center;
             width: 45px;
             }
-         .info-tienda{
+        .info-tienda{
             margin: 20px;
             justify-content: center;
             align-items: center;
@@ -150,7 +141,7 @@
             justify-content: center;
             align-items: center;
             flex-direction: column;
-            width: 146%;
+            width: 100%;
          }
          .fin-info{
             justify-content: center;
@@ -161,8 +152,6 @@
             justify-content: center;
             padding: 28px;
             align-items: center;
-            
-    
          }
      }
      
