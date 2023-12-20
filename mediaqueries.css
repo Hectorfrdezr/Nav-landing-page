@@ -5,7 +5,7 @@
      header{
         justify-content: space-between;
         align-items: center;
-        padding: 25px;
+        /* padding: 25px; */
         
      }
 
@@ -24,7 +24,7 @@
      }
      .nav-list{
         position: absolute;
-        top: 148px;
+        top: 98px;
         left: 5%;
         right: 5%;
         flex-direction: column;
