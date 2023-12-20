@@ -24,7 +24,7 @@
      }
      .nav-list{
         position: absolute;
-        top: 98px;
+        top: 148px;
         left: 5%;
         right: 5%;
         flex-direction: column;
@@ -80,10 +80,7 @@
         align-items: center;
         gap: 25px;
      }
-     .fin-info a{
-        justify-content: center;
-        padding: 28px;
-        align-items: center;}
+
      .fin-footer{
         display: flex;
         width: 20%;
