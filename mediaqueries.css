@@ -78,10 +78,11 @@
     }
 }
 /* phone */
-@media (max-width: 576px) {
+@media (max-width: 540px) {
         
    main{
-    width: 135%;
+     width: 124%;
+   
    }
 
     }

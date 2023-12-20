@@ -35,6 +35,7 @@ header{
 main{
     background:linear-gradient(#4facfe,#00f2fe,#d6f9fb);
     width: 100%;
+    max-width: 1600px;
     
 }
 
