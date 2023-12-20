@@ -1,16 +1,22 @@
 /* tablet */
-@media (max-width: 992px){
+@media (max-width:992px){
      /* header */
+    
      header{
-        width: 100%;
-    }
-    
-    
-     .navbar{
+        justify-content: space-between;
+        align-items: center;
+        padding: 25px;
+        
+     }
+
+     #img{
+        margin-left:5% ;
+     }
+    .navbar{
         gap: 10px;
         margin: 25px;
-
-     }
+        
+    }
      .cart-icon{
          height: 33px;
          margin-right: 0rem;
@@ -50,22 +56,9 @@
         display: flex;
     }
     .info-pag{
-        width: 100%;
         text-align: center;
         justify-content: center;
-        align-items: center;
-        gap: 30px;
     }
-    .info-pag h1{
-        width: 90%;
-        max-width: 500px;
-        min-width:unset ;
-    }
-    .info-pag p{
-        width: 60%;
-        max-width: 600px;
-    }
-    
     .info-img{
         display: none;
     }
@@ -91,26 +84,23 @@
         justify-content: center;
         padding: 28px;
         align-items: center;}
+     .fin-footer{
+        display: flex;
+        width: 20%;
+     }
+     .fin-footer img{
+        display: flex;
+        width: 80%;
+    
+     }   
 }
  
      /* phone */
 
      @media (max-width:576px){
-        .info-pag{
-            justify-content: space-around;
-            gap:10px;
-        }
-        /* main */
        
-       #info{
-        justify-content: center;
-        align-items: center;  
-        }
-        .info-a{
-            justify-content: center;
-            align-items: center;
-            width: 45px;
-            }
+         /* main */
+        
         .info-tienda{
             margin: 20px;
             justify-content: center;
@@ -152,6 +142,17 @@
             justify-content: center;
             padding: 28px;
             align-items: center;
+         }
+         .fin-footer{
+            justify-content: center;
+            align-items: center;
+            display: flex;
+         }
+         .fin-footer img{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
          }
      }
      

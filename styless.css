@@ -19,11 +19,11 @@
     list-style: none;
     text-decoration: none;
     font-family: "poppin",sans-serif;
+    
 }
 
 header{
     display: flex;
-    width: 100%;
     justify-content: space-between;
     align-items: center;
     background-color:var(--bg-electric);
@@ -33,11 +33,12 @@ header{
 }
 
 main{
-    background:linear-gradient(#4facfe,#00f2fe,#d6f9fb);   
+    background:linear-gradient(#4facfe,#00f2fe,#d6f9fb); 
 }
 
+
 #img{
-display: flex;
+    display: flex;
     height: 100px;
     border-radius: 1rem;
     cursor: pointer;  
@@ -76,7 +77,6 @@ padding: 0 20px;
     align-items: center;
     gap: 10px;
     padding: 70px 0;
-    width: 100%;
 }
 .info-pag{
     color: #f9f9ff;
@@ -90,7 +90,8 @@ padding: 0 20px;
 }
 .info-pag h1{
  font-weight: 550;
- font-size: 4rem;
+ font-size: 58px;
+ align-items: center;
  -webkit-text-stroke-width:3px ;
  
 
@@ -99,6 +100,7 @@ padding: 0 20px;
 .info-pag h3{
     font-size: 1.8rem;
     color: #035599;
+    margin-top: 25px;
 }
 
 .info-pag p{
@@ -187,7 +189,7 @@ padding: 0 20px;
     width: 100%;
     display: flex;
     justify-content: center;
-    /* flex-direction: column; */
+    align-items: center;
     margin-top: 40px;
     gap: 12px;
 }
@@ -227,7 +229,7 @@ padding: 0 20px;
     justify-content: center;
     align-items: center;
     gap: 12px;
-    width: 100%;  
+    /* width: 100%;   */
     background-color:#d6f9fb;
     }
 .fin-info{
